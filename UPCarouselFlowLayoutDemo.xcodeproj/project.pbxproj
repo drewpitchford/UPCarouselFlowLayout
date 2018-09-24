@@ -58,8 +58,6 @@
 		01D387941D229BFC00CE4E1F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01D387961D229BFC00CE4E1F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01D387A21D229E4A00CE4E1F /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
-		841C94F01DDEE4E300B997F5 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPCarouselFlowLayout.h; sourceTree = "<group>"; };
-		841C94F11DDEE4E300B997F5 /* UPCarouselFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPCarouselFlowLayout.m; sourceTree = "<group>"; };
 		841C94FD1DDEE57F00B997F5 /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C94FF1DDEE57F00B997F5 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPCarouselFlowLayout.h; sourceTree = "<group>"; };
 		841C95001DDEE57F00B997F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,8 +129,6 @@
 		841C94EF1DDEE4E300B997F5 /* UPCarouselFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				841C94F01DDEE4E300B997F5 /* UPCarouselFlowLayout.h */,
-				841C94F11DDEE4E300B997F5 /* UPCarouselFlowLayout.m */,
 			);
 			path = UPCarouselFlowLayout;
 			sourceTree = "<group>";
@@ -183,9 +179,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841C95061DDEE57F00B997F5 /* Build configuration list for PBXNativeTarget "UPCarouselFlowLayout" */;
 			buildPhases = (
+				841C94FA1DDEE57F00B997F5 /* Headers */,
 				841C94F81DDEE57F00B997F5 /* Sources */,
 				841C94F91DDEE57F00B997F5 /* Frameworks */,
-				841C94FA1DDEE57F00B997F5 /* Headers */,
 				841C94FB1DDEE57F00B997F5 /* Resources */,
 			);
 			buildRules = (
